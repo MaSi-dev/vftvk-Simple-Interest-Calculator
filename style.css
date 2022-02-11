@@ -1,5 +1,6 @@
 body {background-color:tan;}
 h1{color:grey;font-family:Verdana, Geneva, Tahoma, sans-serif}
+
 .manidiv{
     background-color: white;
     color: black;
@@ -9,4 +10,25 @@ h1{color:grey;font-family:Verdana, Geneva, Tahoma, sans-serif}
     align-items: center;
 }
 
+.rate_val{
+    text-align: right;
+}
 
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    align-items: center;
+    appearance: none;
+    width: 50%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #6d5c5c; /* Grey background */
+    outline: black; /* Remove outline */
+    opacity: 0.5; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
